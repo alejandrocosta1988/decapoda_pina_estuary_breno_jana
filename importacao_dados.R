@@ -23,6 +23,7 @@ carregarDados <- function() {
                               labels = unique(dados$Profundidade));
   
   dados <- dados[,-seq(7,10,1)];
+  dados <- dados[,-c(17,19)]
   
   return(dados)
   
