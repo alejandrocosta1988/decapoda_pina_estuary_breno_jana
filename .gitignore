@@ -1,0 +1,12 @@
+*.jpg
+*.png
+*.svg
+*.csv
+*.doc
+*.docx
+*.xlsx
+.DS_Store
+.Rhistory
+.Rproj.user
+Artigo/
+Jana Breno.Rproj
