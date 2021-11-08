@@ -9,3 +9,10 @@ tema  <- theme(
   legend.key = element_blank(),
   axis.text = element_text(colour = "black", size = 10)
 )
+
+tema_boxplot  <- theme(
+  panel.background = element_rect(fill = "white", colour = "black"),
+  panel.grid.major.y = element_line(colour="gray90", linetype = 2),
+  legend.key = element_blank(),
+  axis.text = element_text(colour = "black", size = 10)
+)
