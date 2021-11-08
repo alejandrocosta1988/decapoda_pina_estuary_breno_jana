@@ -20,7 +20,6 @@ range_biovolume <- dados_anova$biovolume %>% range()
 dados_anova %>% filter(biovolume == range_biovolume[1])
 dados_anova %>% filter(biovolume == range_biovolume[2])
 
-names(dados_anova)
 # Período sazonal
 modelo_periodo_sazonal <- lm(log(biovolume) ~ Periodo, data = dados_anova)
 shapiro.test(resid(modelo_periodo_sazonal))
